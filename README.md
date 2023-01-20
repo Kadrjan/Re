@@ -2,4 +2,4 @@
 
 
  ## Результат можно посмотреть тут
- [Первая работа HTML& CSS ](https://github.com/Kadrjan/Re/deployments).
+ [Первая работа HTML& CSS ](https://kadrjan.github.io/Re/).
