@@ -6,79 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name ="keywords" content="Ilnur, cv, resume">
     <meta name="desription" content="Это сайт - резюме Ильнура Кадырова">
+    <link rel="stylesheet" href="style.css">
     <title>ILNUR CV</title>
 </head>
 <body>
+<div class="container">
+    <div class="info"> 
+        <img src="img/Photo.jpg" alt="Ilnur Kadyrov" width="150" class="avatar">
 
-    <img src="Photo.jpg" alt="Ilnur Kadyrov" width="150">
+        <div class="info-text">
+            <h1> Ильнур Кадыров</h1> 
+                <p> Я <strong>Бизнес аналитик/Системный аналитик</strong> , готовый релоцироваться в любую <strong> страну</strong>  </p> 
+                <p> <em>Я люблю путешествовать, смотреть фильмы и изучать ноыве предметы</em> </p>
+
+            <h2>Список социальных сетей: </h2>
+
+            <a href="https://instagram.com/kadrjan"target="_blank">Instgram</a>
+            |
+            <a href="https://t.me/kadrjann"target="_blank">Telegram</a>
+        </div>
+    </div>
+
+    <div class="card back-green">
+        <h2>Мои хобби</h2>
+
+        <ol class="list">
+            <li> Путешествие </li>
+            <li> Просмотр фильмов </li>
+            <li> Сноуборд</li>
+        </ol>
+    </div>
+
+    <div class="card back-red">
+        <h2>Опыт работы </h2>
+
+    <table class="table">
+        <!-- <thead>
+            <tr>
+                <th>Название работы </th>
+                <th>Должность</th>
+                <th>Год</th>
+            </tr>
+        </thead> -->
+        <tbody>
+            <tr>
+                <td>ГУП Сити</td>
+                <td>Бизнес аналитик</td>
+                <td> 2022</td>
+            </tr>
+            <tr>
+                <td>ГУП Сити</td>
+                <td>Инженер Супорт</td>
+                <td> 2022</td>
+            </tr>
+            <tr>
+                <td>Управление образования Казани</td>
+                <td>Бизнес аналитик</td>
+                <td> 2020</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
 
     
-  <h1> Ильнур Кадыров</h1> 
-  <p> Я <strong>Бизнес аналитик/Системный аналитик</strong> , готовый релоцироваться в любую <strong> страну</strong>  </p> 
-  <p> <em>Я люблю путешествовать, смотреть фильмы и изучать ноыве предметы</em> </p>
+    <form action="" class="form">
+        <h2>Contact me</h2>
 
-    <h2>Список социальных сетей: </h2>
+        <div class="form-row">
+        <div class="form-group">
+            <label for="name"> Ваше Имя: </label>
+            <input type="text" id="name" placeholder="Type name">
+        </div>
 
-    <a href="https://instagram.com/kadrjan"target="_blank">Instgram</a>
-    |
-    <a href="https://t.me/kadrjann"target="_blank">telegram</a>
-
-    <h2>Мои хобби</h2>
-
-    <ol>
-        <li> Путешествие </li>
-        <li> Просмотр фильмов </li>
-        <li> Сноуборд</li>
-    </ol>
-
-<h2>Опыт работы </h2>
-
-<table>
-    <thead>
-        <tr>
-            <th>Название работы </th>
-            <th>Должность</th>
-            <th>Год</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ГУП Сити</td>
-            <td>Бизнес аналитик</td>
-            <td> 2022</td>
-        </tr>
-        <tr>
-            <td>ГУП Сити</td>
-            <td>Инженер Супорт</td>
-            <td> 2022</td>
-        </tr>
-        <tr>
-            <td>Управление образования Казани</td>
-            <td>Бизнес аналитик</td>
-            <td> 2020</td>
-        </tr>
-    </tbody>
-</table>
-
-<h2>Contact me</h2>
-<form action="">
-    <div>
-        <label for="name"> Ваше Имя: </label>
-        <input type="text" id="name" placeholder="Type name">
+        <div class="form-group">
+            <label for="email"> Ваше email: </label>
+            <input type="text" id="eamil" placeholder="Type email">
+        </div>
     </div>
-
-    <div>
-        <label for="email"> Ваше email: </label>
-        <input type="text" id="eamil" placeholder="Type email">
-    </div>
-
-    <div>
-        <label for="Message"> Ваше Сообщение: </label>
-        <br>
-        <textarea id="Message" cols="20" rows="5" placeholder="Type message..."></textarea>
-    </div>
-    <button>Отправить</button>
-</form>
-
+        <div class="form-group">
+            <label for="Message"> Ваше Сообщение: </label>
+            <textarea id="Message" cols="20" rows="5" placeholder="Type message..."></textarea>
+        </div>
+        <button class="btn">Отправить</button>
+    </form>
+</div>
 </body>
-</html>    
+</html>     
